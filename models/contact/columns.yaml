@@ -1,0 +1,25 @@
+columns:
+    name:
+        label: 'codecycler.airdesk::lang.columns.name'
+        type: text
+        searchable: true
+        invisible: false
+        sortable: true
+        select: 'concat(name, '' '', surname)'
+    organisation:
+        label: 'codecycler.airdesk::lang.columns.organisation'
+        type: text
+        searchable: true
+        sortable: true
+        select: name
+        relation: organisation
+    email:
+        label: 'codecycler.airdesk::lang.columns.email'
+        type: text
+        searchable: true
+        sortable: true
+    phone:
+        label: 'codecycler.airdesk::lang.columns.phone'
+        type: text
+        searchable: true
+        sortable: true

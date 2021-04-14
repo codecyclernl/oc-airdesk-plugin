@@ -1,0 +1,11 @@
+columns:
+    created_at:
+        label: 'codecycler.airdesk::lang.columns.created_at'
+        type: datetime
+        searchable: true
+        sortable: true
+    title:
+        label: 'codecycler.airdesk::lang.columns.title'
+        type: text
+        searchable: true
+        sortable: true

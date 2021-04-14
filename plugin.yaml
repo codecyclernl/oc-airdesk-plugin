@@ -1,0 +1,51 @@
+plugin:
+    name: 'codecycler.airdesk::lang.plugin.name'
+    description: 'codecycler.airdesk::lang.plugin.description'
+    author: Codecycler
+    icon: oc-icon-building
+    homepage: 'https://codecycler.com/plugins/oc-airdesk-plugin'
+navigation:
+    airdesk:
+        label: 'codecycler.airdesk::lang.plugin.name'
+        url: codecycler/airdesk/organisations
+        icon: icon-building
+        sideMenu:
+            create-log:
+                label: 'codecycler.airdesk::lang.menu.new_log'
+                url: codecycler/airdesk/logs/create
+                icon: icon-plus-circle
+            organisations:
+                label: 'codecycler.airdesk::lang.menu.organisations'
+                url: codecycler/airdesk/organisations
+                icon: icon-building-o
+                permissions:
+                    - manage_organisations
+            contacts:
+                label: 'codecycler.airdesk::lang.menu.contacts'
+                url: codecycler/airdesk/contacts
+                icon: icon-users
+            tasks:
+                label: 'codecycler.airdesk::lang.menu.tasks'
+                url: codecycler/airdesk/tickets
+                icon: icon-ticket
+            logs:
+                label: 'codecycler.airdesk::lang.menu.logs'
+                url: codecycler/airdesk/logs
+                icon: icon-pencil-square-o
+            projects:
+                label: 'codecycler.airdesk::lang.menu.projects'
+                url: /
+                icon: icon-briefcase
+permissions:
+    manage_organisations:
+        tab: 'codecycler.airdesk::lang.plugin.name'
+        label: 'codecycler.airdesk::lang.permissions.manage_organisations'
+    manage_contacts:
+        tab: 'codecycler.airdesk::lang.plugin.name'
+        label: 'codecycler.airdesk::lang.permissions.manage_contacts'
+    manage_logs:
+        tab: 'codecycler.airdesk::lang.plugin.name'
+        label: 'codecycler.airdesk::lang.permissions.manage_logs'
+    manage_tickets:
+        tab: 'codecycler.airdesk::lang.plugin.name'
+        label: 'codecycler.airdesk::lang.permissions.manage_tickets'

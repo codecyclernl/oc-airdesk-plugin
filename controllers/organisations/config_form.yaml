@@ -1,0 +1,10 @@
+name: Organisations
+form: $/codecycler/airdesk/models/organisation/fields.yaml
+modelClass: Codecycler\Airdesk\Models\Organisation
+defaultRedirect: codecycler/airdesk/organisations
+create:
+    redirect: 'codecycler/airdesk/organisations/update/:id'
+    redirectClose: codecycler/airdesk/organisations
+update:
+    redirect: codecycler/airdesk/organisations
+    redirectClose: codecycler/airdesk/organisations

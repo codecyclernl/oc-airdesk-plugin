@@ -1,0 +1,15 @@
+fields:
+    subject:
+        label: 'codecycler.airdesk::lang.fields.subject'
+        span: left
+        type: text
+    created_at:
+        label: 'codecycler.airdesk::lang.fields.created_at'
+        span: right
+        type: datepicker
+        default: now
+    notes:
+        label: 'codecycler.airdesk::lang.fields.notes'
+        size: large
+        span: full
+        type: richeditor

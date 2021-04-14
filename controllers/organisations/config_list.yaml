@@ -1,0 +1,12 @@
+list: $/codecycler/airdesk/models/organisation/columns.yaml
+modelClass: Codecycler\Airdesk\Models\Organisation
+title: Organisations
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'codecycler/airdesk/organisations/update/:id'

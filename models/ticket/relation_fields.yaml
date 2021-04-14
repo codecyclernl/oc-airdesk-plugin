@@ -1,0 +1,15 @@
+fields:
+    title:
+        label: 'codecycler.airdesk::lang.fields.title'
+        span: left
+        type: text
+    due_at:
+        label: 'codecycler.airdesk::lang.fields.due_at'
+        mode: datetime
+        span: auto
+        type: datepicker
+    description:
+        label: 'codecycler.airdesk::lang.fields.description'
+        size: huge
+        span: full
+        type: richeditor

@@ -1,0 +1,53 @@
+<?php return [
+    'plugin' => [
+        'name' => 'Airdesk',
+        'description' => '',
+    ],
+    'menu' => [
+        'organisations' => 'Organisaties',
+        'contacts' => 'Contactpersonen',
+        'tasks' => 'Tickets',
+        'projects' => 'Projecten',
+        'logs' => 'Logboek',
+        'new_log' => 'Logboek item',
+    ],
+    'permissions' => [
+        'manage_organisations' => 'Bekijk en beheer organisaties',
+        'manage_contacts' => 'Bekijk en beheer contactpersonen',
+        'manage_logs' => 'Bekijk en beheer logs',
+        'manage_tickets' => 'Bekijk en beheer tickets',
+    ],
+    'fields' => [
+        'name' => 'Naam',
+        'surname' => 'Achternaam',
+        'email' => 'E-mailadres',
+        'phone' => 'Telefoonnummer',
+        'subject' => 'Onderwerp',
+        'organisation' => 'Organisatie',
+        'created_at' => 'Aangemaakt op',
+        'title' => 'Titel',
+        'description' => 'Bericht',
+        'due_at' => 'Verloopt op',
+        'notes' => 'Notities',
+    ],
+    'columns' => [
+        'name' => 'Naam',
+        'surname' => 'Achternaam',
+        'organisation' => 'Organisatie',
+        'email' => 'E-mailadres',
+        'phone' => 'Telefoonnummer',
+        'created_at' => 'Aangemaakt op',
+        'subject' => 'Onderwerp',
+        'title' => 'Titel',
+    ],
+    'tabs' => [
+        'contacts' => 'Contactpersonen',
+        'logs' => 'Logboek items',
+        'tickets' => 'Tickets',
+    ],
+    'relations' => [
+        'contacts' => 'contactpersoon',
+        'logs' => 'logboek item',
+        'tickets' => 'ticket',
+    ],
+];

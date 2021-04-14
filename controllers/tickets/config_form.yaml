@@ -1,0 +1,10 @@
+name: Tickets
+form: $/codecycler/airdesk/models/ticket/fields.yaml
+modelClass: Codecycler\Airdesk\Models\Ticket
+defaultRedirect: codecycler/airdesk/tickets
+create:
+    redirect: 'codecycler/airdesk/tickets/update/:id'
+    redirectClose: codecycler/airdesk/tickets
+update:
+    redirect: codecycler/airdesk/tickets
+    redirectClose: codecycler/airdesk/tickets

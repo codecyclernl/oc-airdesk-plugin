@@ -1,0 +1,21 @@
+contacts:
+    label: codecycler.airdesk::lang.relations.contacts
+    manage:
+        form: $/codecycler/airdesk/models/contact/fields.yaml
+        list: $/codecycler/airdesk/models/contact/columns.yaml
+    view:
+        list: $/codecycler/airdesk/models/contact/relation_columns.yaml
+logs:
+    label: codecycler.airdesk::lang.relations.logs
+    manage:
+        form: $/codecycler/airdesk/models/log/relation_fields.yaml
+        list: $/codecycler/airdesk/models/log/columns.yaml
+    view:
+        list: $/codecycler/airdesk/models/log/relation_columns.yaml
+tickets:
+    label: codecycler.airdesk::lang.relations.tickets
+    manage:
+        form: $/codecycler/airdesk/models/ticket/relation_fields.yaml
+        list: $/codecycler/airdesk/models/ticket/columns.yaml
+    view:
+        list: $/codecycler/airdesk/models/ticket/relation_columns.yaml

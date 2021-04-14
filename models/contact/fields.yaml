@@ -1,0 +1,24 @@
+fields:
+    name:
+        label: 'codecycler.airdesk::lang.fields.name'
+        span: auto
+        type: text
+    surname:
+        label: 'codecycler.airdesk::lang.fields.surname'
+        span: auto
+        type: text
+    email:
+        label: 'codecycler.airdesk::lang.fields.email'
+        span: auto
+        type: text
+    phone:
+        label: 'codecycler.airdesk::lang.fields.phone'
+        span: auto
+        type: text
+tabs:
+    fields:
+        logs:
+            tab: codecycler.airdesk::lang.tabs.logs
+            span: full
+            type: partial
+            path: field_logs

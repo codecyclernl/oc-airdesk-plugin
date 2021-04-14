@@ -1,0 +1,25 @@
+fields:
+    subject:
+        label: 'codecycler.airdesk::lang.fields.subject'
+        span: left
+        type: text
+    organisation:
+        label: 'codecycler.airdesk::lang.fields.organisation'
+        nameFrom: name
+        descriptionFrom: description
+        list: $/codecycler/airdesk/models/organisation/columns.yaml
+        span: left
+        type: recordfinder
+    contact:
+        label: Contact
+        nameFrom: name
+        descriptionFrom: description
+        list: $/codecycler/airdesk/models/contact/relation_columns.yaml
+        span: auto
+        type: recordfinder
+    notes:
+        label: 'codecycler.airdesk::lang.fields.notes'
+        size: giant
+        span: full
+        stretch: 0
+        type: richeditor

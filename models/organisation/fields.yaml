@@ -1,0 +1,26 @@
+fields:
+    name:
+        label: 'codecycler.airdesk::lang.fields.name'
+        span: left
+        type: text
+tabs:
+    lazy:
+        - 'codecycler.airdesk::lang.tabs.logs'
+        - 'codecycler.airdesk::lang.tabs.contacts'
+        - 'codecycler.airdesk::lang.tabs.tickets'
+    fields:
+        logs:
+            span: full
+            path: field_logs
+            type: partial
+            tab: 'codecycler.airdesk::lang.tabs.logs'
+        tickets:
+            span: full
+            path: field_tickets
+            type: partial
+            tab: 'codecycler.airdesk::lang.tabs.tickets'
+        contacts:
+            span: full
+            path: field_contacts
+            type: partial
+            tab: 'codecycler.airdesk::lang.tabs.contacts'

@@ -1,0 +1,17 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created organisations table'
+    - builder_table_create_codecycler_airdesk_organisations.php
+1.0.3:
+    - 'Created contacts table'
+    - builder_table_create_codecycler_airdesk_contacts.php
+1.0.4:
+    - 'Created logs table'
+    - builder_table_create_codecycler_airdesk_logs.php
+1.0.5:
+    - 'Created table codecycler_airdesk_tickets'
+    - builder_table_create_codecycler_airdesk_tickets.php
+1.0.6:
+    - 'Updated table codecycler_airdesk_tickets'
+    - builder_table_update_codecycler_airdesk_tickets.php

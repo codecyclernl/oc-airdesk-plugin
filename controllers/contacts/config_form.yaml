@@ -1,0 +1,10 @@
+name: Contacts
+form: $/codecycler/airdesk/models/contact/fields.yaml
+modelClass: Codecycler\Airdesk\Models\Contact
+defaultRedirect: codecycler/airdesk/contacts
+create:
+    redirect: 'codecycler/airdesk/contacts/update/:id'
+    redirectClose: codecycler/airdesk/contacts
+update:
+    redirect: codecycler/airdesk/contacts
+    redirectClose: codecycler/airdesk/contacts

@@ -1,0 +1,10 @@
+name: Logs
+form: $/codecycler/airdesk/models/log/fields.yaml
+modelClass: Codecycler\Airdesk\Models\Log
+defaultRedirect: codecycler/airdesk/logs
+create:
+    redirect: 'codecycler/airdesk/logs/update/:id'
+    redirectClose: codecycler/airdesk/logs
+update:
+    redirect: codecycler/airdesk/logs
+    redirectClose: codecycler/airdesk/logs

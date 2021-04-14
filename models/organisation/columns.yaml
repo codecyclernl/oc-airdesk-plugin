@@ -1,0 +1,6 @@
+columns:
+    name:
+        label: 'codecycler.airdesk::lang.columns.name'
+        type: text
+        searchable: true
+        sortable: true

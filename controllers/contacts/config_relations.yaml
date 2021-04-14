@@ -1,0 +1,7 @@
+logs:
+    label: codecycler.airdesk::lang.relations.logs
+    manage:
+        form: $/codecycler/airdesk/models/log/relation_fields.yaml
+        list: $/codecycler/airdesk/models/log/columns.yaml
+    view:
+        list: $/codecycler/airdesk/models/log/relation_columns.yaml
